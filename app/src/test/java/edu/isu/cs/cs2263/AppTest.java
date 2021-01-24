@@ -3,8 +3,8 @@
  */
 package edu.isu.cs.cs2263;
 
+import edu.isu.cs.cs2263.javafx.App;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test void appHasAGreeting() {
