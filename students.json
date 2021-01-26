@@ -1,0 +1,146 @@
+[
+  {
+    "firstName": "Caleb",
+    "lastName": "Eardley",
+    "courses": [
+      {
+        "number": 101,
+        "subject": "CS",
+        "title": "Intro to computer science"
+      },
+      {
+        "number": 203,
+        "subject": "ENGL",
+        "title": "Writing"
+      },
+      {
+        "number": 321,
+        "subject": "MATH",
+        "title": "Calculus"
+      },
+      {
+        "number": 253,
+        "subject": "COMM",
+        "title": "Speech"
+      },
+      {
+        "number": 313,
+        "subject": "ART",
+        "title": "Sculpting"
+      },
+      {
+        "number": 294,
+        "subject": "CS",
+        "title": "Data Structures"
+      }
+    ]
+  },
+  {
+    "firstName": "Karen",
+    "lastName": "Hoag",
+    "courses": [
+      {
+        "number": 223,
+        "subject": "MATH",
+        "title": "Trigonometry"
+      },
+      {
+        "number": 325,
+        "subject": "BS",
+        "title": "Intro to Business"
+      },
+      {
+        "number": 423,
+        "subject": "ART",
+        "title": "Digital Art"
+      },
+      {
+        "number": 112,
+        "subject": "ENG",
+        "title": "French Literature"
+      },
+      {
+        "number": 116,
+        "subject": "HIST",
+        "title": "US History"
+      },
+      {
+        "number": 202,
+        "subject": "ANTH",
+        "title": "Ancient Egyptian Culture"
+      }
+    ]
+  },
+  {
+    "firstName": "Octavio",
+    "lastName": "Mancilla",
+    "courses": [
+      {
+        "number": 116,
+        "subject": "HIST",
+        "title": "US History"
+      },
+      {
+        "number": 325,
+        "subject": "BS",
+        "title": "Intro to Business"
+      },
+      {
+        "number": 112,
+        "subject": "ENG",
+        "title": "French Literature"
+      },
+      {
+        "number": 313,
+        "subject": "ART",
+        "title": "Sculpting"
+      },
+      {
+        "number": 202,
+        "subject": "ANTH",
+        "title": "Ancient Egyptian Culture"
+      },
+      {
+        "number": 101,
+        "subject": "ENGL",
+        "title": "Writing"
+      }
+    ]
+  },
+  {
+    "firstName": "Kim",
+    "lastName": "Kay",
+    "courses": [
+      {
+        "number": 313,
+        "subject": "ART",
+        "title": "Sculpting"
+      },
+      {
+        "number": 321,
+        "subject": "MATH",
+        "title": "Calculus"
+      },
+      {
+        "number": 101,
+        "subject": "CS",
+        "title": "Intro to computer science"
+      },
+      {
+        "number": 223,
+        "subject": "MATH",
+        "title": "Trigonometry"
+      },
+      {
+        "number": 294,
+        "subject": "CS",
+        "title": "Data Structures"
+      },
+      {
+        "number": 101,
+        "subject": "ENGL",
+        "title": "Writing"
+      }
+    ]
+  }
+]
