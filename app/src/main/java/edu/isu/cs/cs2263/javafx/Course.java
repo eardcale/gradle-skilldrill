@@ -20,7 +20,7 @@ public class Course {
     public String getSubject() {return subject;} //returns subject
     public String getTitle() {return title;}//returns title
     public String toString(){
-        return getNumber()+" "+getSubject()+" "+getTitle();
+        return getSubject()+" "+getNumber()+" "+getTitle();
     }//returns number subject and title in string
 
     //setter methods

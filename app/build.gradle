@@ -29,10 +29,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
 }
 
-application {
-    // Define the main class for the application.
-    mainClass = 'edu/isu/cs/cs2263/javafx/App.java'
-}
+
 javafx{
     version = '15.0.1'
     modules = ['javafx.controls']

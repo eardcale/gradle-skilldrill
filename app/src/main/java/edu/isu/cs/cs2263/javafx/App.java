@@ -26,20 +26,30 @@ public class App extends Application{
         stage.setTitle("Course View");
         //Student List
         Label studentLabel = new Label("Students");
-        ObservableList<Student> students = FXCollections.observableArrayList(new Student("Caleb", "Eardley", new ArrayList<Course>()));
-        ListView<Student> studentList = new ListView<Student>(students);
+        //ObservableList<Student> students = FXCollections.observableArrayList();
+        final ListView<Student> studentList = new ListView<Student>();
         VBox studentVbox = new VBox(studentLabel,studentList);
+
+
 
         //Course List
         Label courseLabel = new Label("Courses");
-        ObservableList<Course> courses = FXCollections.observableArrayList(students.get(0).getCourses());
-        ListView<Course> courseList= new ListView<Course>(courses);
+        final ListView<Course> courseList= new ListView<Course>();
         VBox courseVbox = new VBox(courseLabel, courseList);
 
         //button
         Button button = new Button("Load Data");
         button.setOnAction(value->{
+            IOManager man = new IOManager();
+            ObservableList<Student> students = FXCollections.observableArrayList(IOManager.readData());
+            studentList.getItems().clear();
+            studentList.getItems().addAll(students);
+        });
 
+        //list clicked action
+        studentList.setOnMouseClicked(value->{
+            courseList.getItems().clear();
+            courseList.getItems().addAll(studentList.getSelectionModel().getSelectedItem().getCourses());
         });
 
         //Label
